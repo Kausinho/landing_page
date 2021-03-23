@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+html,body{
+    height: 100%;
+    background: black;
+}
+
+/**Classes do site**/
+
+.container-single{
+    width: 100%;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/****/
+
+/**Estilização header da página**/
+
+header{
+    padding: 10px 0;
+    background: black;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    
+}
+
+nav.desktop ul{
+    list-style-type: none;
+}
+
+nav.desktop ul li{
+    display: inline-block;
+}
+
+nav.desktop li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    margin-right: 10px;
+}
+
+/****/
+
+/**Sessão texto principal**/
+
+section.texto-principal{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+section.texto-principal .container{
+    max-width: 700px;
+}
+
+section.texto-principal .texto-central{
+    margin-top: 80px;
+}
+
+.texto-central h2{
+    font-weight: 300;
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+
+.texto-central p{
+    font-size: 16px;
+    font-weight: normal;
+    color:white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-blog{
+    margin-top: 35px;
+    text-align: center;
+    color: red;
+}
+
+section.texto-principal .btn-blog a{
+    font-size: 45px;
+}
+
+.btn-blog i{
+    color: white;
+}
+
+/****/
