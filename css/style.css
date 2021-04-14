@@ -7,104 +7,172 @@
 
 html,body{
     height: 100%;
-    background: black;
 }
 
-/**Classes do site**/
+body{
+    background: #9575cd;
+}
+
+/*Classes do site*/
 
 .container-single{
-    width: 100%;
     max-width: 1280px;
+    padding: 0 2%;
     display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-}
-
-.container{
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
-/****/
-
-/**Estilização header da página**/
-
-header{
-    padding: 10px 0;
-    background: black;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo{
+.container{
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/****/
+
+/*Header do site*/
+
+header{
+    width: 100%;
+    background: #673ab7;
+    padding: 15px 0;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: lighter;
     color: white;
-    font-size: 25px;
-    font-weight: 300;
-    
 }
 
 nav.desktop ul{
     list-style-type: none;
 }
 
-nav.desktop ul li{
+nav.desktop li{
     display: inline-block;
+    margin-right: 30px;
 }
 
-nav.desktop li a{
+nav.desktop a{
     text-decoration: none;
     color: white;
-    font-size: 18px;
-    font-weight: 300;
-    margin-right: 10px;
+    font-size: 17px;
+    font-weight: lighter;
+}
+
+nav.desktop a:hover{
+    border-bottom: 1px solid white;
 }
 
 /****/
 
-/**Sessão texto principal**/
+/*Sessão Servicos*/
 
-section.texto-principal{
+section.servicos{
+    margin-top: 50px;
+}
+
+section.servicos > .container{
+    max-width: 900px;
+}
+
+section.servicos h2.chamada{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: lighter;
+
+}
+
+section.servicos h2.chamada span{
+    color: #311b92;
+    font-weight: bold;
+    border-bottom: 4px solid #4527a0;
+}
+
+.box{
+    margin-top: 40px;
+    column-count: 3;
+    column-gap: 40px;
+}
+
+.box-single{
     width: 100%;
-    height: 100%;
-    background-color: black;
+    background: rgba(49,27,146,0.8);
+    border-radius: 15px;
+    padding: 15px;
+    display: inline-block;
+    break-inside: avoid;
+    margin-top: 30px;
 }
 
-section.texto-principal .container{
-    max-width: 700px;
-}
-
-section.texto-principal .texto-central{
-    margin-top: 80px;
-}
-
-.texto-central h2{
-    font-weight: 300;
-    font-size: 45px;
+.box-single h2{
     color: white;
     text-align: center;
+    font-size: 35px;
+    font-weight: lighter;
+    margin-top: 6px;
 }
 
-.texto-central p{
+.box-single h2 span{
+    border-bottom: 1px solid #7e57c2 ;
+}
+
+.box-single p.preco{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.box-single p.conteudo{
+    color: white;
+    text-align: center;
     font-size: 16px;
-    font-weight: normal;
-    color:white;
-    margin-top: 20px;
-    text-align: center;
+    font-weight: lighter;
+    margin-top: 15px;
+    margin: 5%;
 }
 
-.btn-blog{
-    margin-top: 35px;
-    text-align: center;
-    color: red;
-}
-
-section.texto-principal .btn-blog a{
-    font-size: 45px;
-}
-
-.btn-blog i{
+.box-single input[type=submit]{
+    padding: 3px 8px;
+    background: #7e57c2;
+    border: 0;
+    border-radius: 15px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: lighter;
     color: white;
+    cursor: pointer;
+    display: block;
 }
 
-/****/
+.box-single input[type=submit]:hover{
+    background: #9575cd;
+}
+
+/*****/
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px 2%;
+    background:#673ab7;
+}
+
+footer h2{
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-weight: lighter;
+
+}
+
+/***/
