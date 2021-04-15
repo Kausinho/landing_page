@@ -31,6 +31,10 @@ body{
     flex-wrap: wrap;
 }
 
+.w100{
+    width: 100%;
+}
+
 /****/
 
 /*Header do site*/
@@ -154,6 +158,93 @@ section.servicos h2.chamada span{
 
 .box-single input[type=submit]:hover{
     background: #9575cd;
+}
+
+/*****/
+
+/*Página de contato*/
+
+section.form{
+    width: 100%;
+}
+
+section.form h2{
+    margin-top: 40px;
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section.form form{
+    width: 100%;
+}
+
+section.form .container{
+    max-width:700px;
+    background: rgba(49,27,146,0.8);
+    padding: 35px 35px;
+    margin-top: 35px;
+    border-radius: 7px;
+}
+
+.form-group{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.form-group p{
+    margin-bottom: 7px;
+    color: white;
+    font-size: 18px;
+}
+
+.form-group input{
+    width: 100%;
+    padding: 8px;
+    border: 0;
+    border-radius: 4px;
+}
+
+.form-group input[type=submit]{
+    background: #4caf50;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.form-group input[type=submit]:hover{
+    background: #66bb6a;
+}
+
+.form-wraper label{
+    display: block;
+    margin-bottom: 4px;
+    color: white;
+}
+
+.form-group select{
+    width: 100%;
+    padding: 8px;
+}
+
+.form-group textarea{
+    width: 100%;
+    padding: 8px;
+    padding-bottom: 60px;
+    resize: vertical;
+}
+
+.form-wraper{
+    margin-bottom: 40px;
+}
+
+.form-wraper p{
+    margin-bottom: 4px;
+    color: white;
+    font-size: 18px;
+
 }
 
 /*****/
