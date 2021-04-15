@@ -1,0 +1,76 @@
+<section class="form">
+    <h2>Entre em contato conosco!</h2>
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <p>Nome</p>
+                <input type="text" name="Nome" placeholder="Seu Nome" />
+            </div><!--form-group-->
+            
+            <div class="form-group">
+                <p>Email</p>
+                <input type="text" name="E-mail" placeholder="Seu E-mail" />
+            </div><!--form-group-->
+
+            <div class="form-group">
+                <p>Idade</p> 
+                <p class="text-peq">(opicional)</p>
+                <input type="number" min="10" max="99" name="Idade" placeholder="Sua Idade" />
+            </div><!--form-group-->
+
+            <div class="form-group">
+                <p>Qual opção descreve melhor sua função atual?</p>
+                <select name="funcao">
+                    <option class="single" disabled selected value="">Selecione sua função atual</option>
+                    <option value="funcoes">Estudante</option>
+                    <option value="funcoes">Trabalho em tempo integral</option>
+                    <option value="funcoes">Aluno em tempo integral</option>
+                    <option value="funcoes">Prefiro não dizer</option>
+                    <option value="funcoes">Outra</option>
+                </select>
+            </div><!--form-group-->
+
+            <div class="form-wraper">
+                <p>Você recomendaria este site a um amigo?</p>
+                <label><input type="radio" name="opiniao" value="sim" />  Com certeza</label>
+                <label><input type="radio" name="opiniao" />  Talvez</label>
+                <label><input type="radio" name="opiniao" />  Acho que não</label>
+            </div><!--form-group-->
+
+            <div class="form-group">
+                <p>Qual é o seu recurso favorito deste site</p>
+                <select name="funcao">
+                    <option disabled selected value="">Selecione uma opção</option>
+                    <option value="preferncia">Desafios</option>
+                    <option value="preferncia">Projetos</option>
+                    <option value="preferncia">Comunidade</option>
+                    <option value="preferncia">Código aberto</option>
+                </select>
+            </div><!--form-group-->
+
+            <div class="form-wraper">
+                <p>O que você gostaria de ver melhorado?</p>
+                <label><input type="checkbox" name="projeto-front" /> Projetos Front-End</label>
+                <label><input type="checkbox" name="projeto-front" /> Projetos Back-End</label>
+                <label><input type="checkbox" name="projeto-front" /> Visualização de dados</label>
+                <label><input type="checkbox" name="projeto-front" /> Desafios</label>
+                <label><input type="checkbox" name="projeto-front" /> Comunidade de código aberto</label>
+                <label><input type="checkbox" name="projeto-front" /> Salas de ajuda</label>
+                <label><input type="checkbox" name="projeto-front" /> Videos</label>
+                <label><input type="checkbox" name="projeto-front" /> Encontro de cidades</label>
+                <label><input type="checkbox" name="projeto-front" /> Wiki</label>
+                <label><input type="checkbox" name="projeto-front" /> Forúm</label>
+                <label><input type="checkbox" name="projeto-front" /> Cursos adicionais</label>
+            </div><!--form-group-->
+
+            <div class="form-group">
+               <p>Deixe sua sugestão</p>
+               <textarea placeholder="Sua mensagem"></textarea>
+            </div><!--form-group-->
+               
+            <div class="form-group">
+                <input type="submit" value="Enviar" />
+            </div><!--form-group-->
+        </form>
+    </div><!--container-->
+</section>
