@@ -177,6 +177,12 @@ section.form h2{
     text-transform: uppercase;
 }
 
+section.form > h2 > span{
+    color: #311b92;
+    font-weight: bold;
+    border-bottom: 4px solid #4527a0;
+}
+
 section.form form{
     width: 100%;
 }
@@ -248,6 +254,54 @@ section.form .container{
 }
 
 /*****/
+
+/*Estilo página sobre*/
+
+section.sobre > h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 35px;
+    margin-top: 40px;
+    color: white;
+}
+
+section.sobre > h2 > span{
+    color: #311b92;
+    font-weight: bold;
+    border-bottom: 4px solid #4527a0;
+}
+
+section.sobre .container{
+    display: flex;
+    background: rgba(49,27,146,0.8);
+    max-width: 700px;
+    margin-top: 35px;
+    border-radius: 8px;
+}
+
+.conteudo{
+    width: 100%;
+    padding: 4% ;
+}
+
+.conteudo h2{
+    font-size: 23px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conteudo p{
+    font-size: 16px;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+}
+
+/****/
 
 /*Footer*/
 
