@@ -19,6 +19,17 @@
                     <li><a href="contato">Contato</a></li>
                 </ul>
             </nav>
+
+            
+            <nav class="mobile">
+            <div class="btn-menu-open"><i class="fa fa-bars"></i></div><!--btn-menu-open-->
+            <div class="btn-menu-close"><i class="fa fa-times"></i></div><!--btn-menu-close-->
+                <ul>
+                    <li><a href="home">Home</a></li>
+                    <li><a href="sobre">Sobre</a></li>
+                    <li><a href="contato">Contato</a></li>
+                </ul>
+            </nav>
         </div><!--container-->
     </header>
 
@@ -40,5 +51,8 @@
     <footer>
         <h2>Todos os direitos reservados!</h2>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
