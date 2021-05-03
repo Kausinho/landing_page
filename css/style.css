@@ -52,6 +52,67 @@ header{
     color: white;
 }
 
+nav.mobile{
+    display: flex;
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: white;
+}
+
+div.btn-menu-open{
+    display: none;
+    position: absolute;
+    top: -45px;
+    left: 430px;
+}
+
+div.btn-menu-open i{
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+div.btn-menu-close{
+    display: none;
+    position: absolute;
+    top: -45px;
+    left: 430px;
+}
+
+div.btn-menu-close i{
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+nav.mobile ul{
+    list-style-type: none;
+    padding: 30px;
+}
+
+nav.mobile li{
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    background: #ccc;
+    padding: 10px;
+}
+
+nav.mobile li:hover{
+    background: #b3b3b3;
+    -webkit-box-shadow: -1px 1px 15px 7px rgba(0,0,0,0.18); 
+    box-shadow: -1px 1px 15px 7px rgba(0,0,0,0.18);
+}
+
+nav.mobile a{
+    text-decoration: none;
+    color: black;
+}
+
 nav.desktop ul{
     list-style-type: none;
 }
@@ -258,6 +319,7 @@ section.form .container{
 /*Estilo página sobre*/
 
 section.sobre > h2{
+    width: 100%;
     text-align: center;
     text-transform: uppercase;
     font-weight: lighter;
@@ -321,3 +383,50 @@ footer h2{
 }
 
 /***/
+
+/*Media Query*/
+
+@media screen and (max-width: 768px){
+    nav.desktop{
+        display: none;
+    }
+
+    nav.mobile{
+        display: block;
+    }
+
+    nav.mobile ul{
+        display: none;
+    }
+
+    div.btn-menu-open{
+        display: block;
+    }
+
+    div.btn-menu-close{
+        display: none;
+    }
+
+    .box{
+        column-count: 2;
+        column-gap: 40px;
+    }
+
+    section.sobre > h2{
+        max-width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    section.sobre .container{
+        max-width: 400px;
+    }
+
+    section.form .container{
+        max-width: 400px;
+    }
+
+}
+
+/*****/
