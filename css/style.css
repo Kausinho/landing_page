@@ -365,6 +365,66 @@ section.sobre .container{
 
 /****/
 
+/*Equipe*/
+
+section.equipe{
+    margin-top: 8%;
+}
+
+section.equipe > h2{
+    padding: 15px;
+    font-size: 35px;
+    font-weight: lighter;
+    color: white;
+    background: rgba(49,27,146,0.8);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+section.equipe > i{
+    position: relative;
+    top: -53px;
+    left: 980px;
+    font-size: 35px;
+    color: white;
+}
+
+.equipe-box{
+    min-height:350px;
+    border-radius: 4px;
+    margin-right: 55px;
+    width: 100%;
+    display: inline-block;
+    background: #5e35b1;
+    margin-top: 3%;
+    max-width: 350px;
+    padding: 30px;
+}
+
+section.equipe .equipe-box .icons-equip{
+    font-size: 45px;
+    color: white;
+    text-align: center;
+}
+
+section.equipe .equipe-box h2{
+    font-size: 19px;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+
+section.equipe .equipe-box p{
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    color: #ccc;
+    margin-top: 15px;
+}
+
+/*****/
+
 /*Footer*/
 
 footer{
