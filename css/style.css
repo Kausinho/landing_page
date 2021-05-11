@@ -104,8 +104,9 @@ nav.mobile li{
 
 nav.mobile li:hover{
     background: #b3b3b3;
-    -webkit-box-shadow: -1px 1px 15px 7px rgba(0,0,0,0.18); 
-    box-shadow: -1px 1px 15px 7px rgba(0,0,0,0.18);
+    box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.55);
+    -moz-box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.55);
 }
 
 nav.mobile a{
